@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hello
+  ai:
+    deepseek:
+      base-url: https://api.deepseek.com
+      api-key:
+      chat:
+        options:
+          model: deepseek-v4-pro
+          temperature: 0.7
